@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'FrenteH1';
+	src: url('../fonts/FrenteH1.otf') format('opentype');
+}
+body * {
+	font-family: 'FrenteH1', cursive;
+}
+#header-title {
+	background: #dddddd;
+	border: 1cm solid #999999;
+	display: block;
+	margin: 10px auto;
+	padding: 4em;
+	text-align: center;
+	-moz-border-radius: 20% / 10%;
+	-webkit-border-radius: 20% / 10%;
+	border-radius: 20% / 10%;
+	-moz-box-shadow: rgb(150, 150, 150) 5vh 5vh 10vw;
+	-webkit-box-shadow: rgb(150, 150, 150) 5vh 5vh 10vw;
+	box-shadow: rgb(85, 75, 75) 5px 5px 10px;
+	background: -webkit-radial-gradient(center, circle, #ffffff 0%, #006699 200%);
+	background: -moz-radial-gradient(center, circle, #ffffff 0%, #006699 200%);
+	-moz-transform: translateY(100vmax) rotate(45deg) scaleX(0.3);
+	-webkit-transform: translateY(100vmax) rotate(45deg) scaleX(0.3);
+	transform: translateY(100px) rotate(45deg) scaleX(0.3);
+	-moz-transition: -moz-transform 1s ease-in-out 0.5s;
+	-webkit-transition: -webkit-transform 1s ease-in-out 0.5s;
+	transition: transform 1s ease-in-out 0.5s;
+}
+#header-title:hover {
+	-moz-transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+#span-title {
+	font-family: 'Arial', cursive;
+	text-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px;
+	color: hsla(120, 100%, 50%, 0.5);
+}
